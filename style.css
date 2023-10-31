@@ -96,7 +96,6 @@ z-index: 99;
 }
 .inicio .contenido-banner2 img{
     margin-top: 40px;
-    width: 100%;
     margin: auto;
     border-radius: 10%;
 }
@@ -156,9 +155,13 @@ z-index: 99;
 }
 .sobremi .fila{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .sobremi .fila .col{
-    width: 50%;
+    width: auto;
+    justify-content: center;
+    
     
 }
 .sobremi .fila .col h3{
@@ -189,6 +192,8 @@ z-index: 99;
 .sobremi .fila .col .contenedor-tecnologias{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .sobremi .fila .col .contenedor-tecnologias .tecnologias{
     width: 150px;
@@ -381,6 +386,8 @@ z-index: 99;
   .front .inner p{
     font-size: 2rem;
     margin-bottom: 2rem;
+    white-space: nowrap;
+    overflow: hidden;
     position: relative;
   }
   /* el separador de los textos */
