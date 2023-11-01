@@ -200,7 +200,7 @@ z-index: 99;
     height: 150px;
     background-color: darkcyan;
     border-radius: 10px;
-    margin: 0 25px 25px 0;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -275,6 +275,7 @@ z-index: 99;
             transform-style: preserve-3d;
       -webkit-perspective: 1000px;
       perspective: 1000px;
+      position: relative;
   }
   /* El front y el back stylos */
   .front, .back{
@@ -300,10 +301,16 @@ z-index: 99;
   }
   /* solo el back */
   .back{
-    background: #0562a9;
-    background: -webkit-linear-gradient(45deg,  #071a28 0%,#00eeff 100%);
+    margin: auto;
+    background-image: url(img/api.png);
+    
+    
+    /* Imagen de fondo */
+    /* background-image: url(img/asp.netCoreMVC.png);
+    background-image: cover; */
+    /* background: -webkit-linear-gradient(45deg,  #071a28 0%,#00eeff 100%);
     background: -o-linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
-    background: linear-gradient(45deg,  #cedce7 0%,#596a72 100%);
+    background: linear-gradient(45deg,  #cedce7 0%,#596a72 100%); */
   }
   /* se sombrea para que al no estar encima solo se vea el front*/
   .front:after{
