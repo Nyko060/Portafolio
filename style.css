@@ -177,17 +177,16 @@ z-index: 99;
     font-size: 20px;
     font-family: 'Courier Prime', monospace;
 }
+.sobremi .contenido-seccion p{
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+}
 .sobremi .fila .col ul li strong{
     display: inline-block;
     color: #1cb698;
     width:130px;
 }
-/* .sobremi .fila .col ul li span{
-    background-color: #1cb698;
-    padding: 3px;
-    font-weight: bold;
-    border-radius: 5px;
-} */
+
 
 .sobremi .fila .col .contenedor-tecnologias{
     display: flex;
